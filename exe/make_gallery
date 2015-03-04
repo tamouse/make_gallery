@@ -2,4 +2,4 @@
 
 require "make_gallery"
 
-MakeGallery.start
+MakeGallery::Thor.start
