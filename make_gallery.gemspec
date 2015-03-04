@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tamara Temple"]
   spec.email         = ["tamouse@gmail.com"]
   spec.summary       = %q{Create a set of images for a blog gallery.}
-  spec.homepage      = "https://github.com/tamouse"
+  spec.homepage      = "https://github.com/tamouse/make_gallery"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

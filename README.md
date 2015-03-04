@@ -25,13 +25,13 @@ In addition, I want to create web-scale .jpgs in a `web/` subdirectory
 
 ## Installation
 
-Or install it yourself as:
-
     $ gem install make_gallery
 
 ## Usage
 
-    $ make_gallery (thumbs | web) [--source DIR] [--target DIR] [--size SIZE] [--format FORMAT] [--force] [--verbose] [--debug]
+**For up-to-the-minute usage information, you should run `make_gallery help`.**
+
+    $ make_gallery (thumbs | web) [--source DIR] [--target DIR] [--size SIZE] [--format FORMAT] [--force] [--verbose] [--debug] [--dry-run]
 
 * **thumbs:** create (square) thumbnails
 * **web:** create web-sized images (maintains aspect ratio)
@@ -40,8 +40,11 @@ Or install it yourself as:
 * *size:* horizontal size for web images, side size for thumbs
 * *format:* JPG for web images, GIF for thumbs
 * *force:* overwrite (default is abort if directory already exists)
+* *dry-run:* don't actually create the images or directory, just show
+  what would happen
 * *verbose:* be chatty
 * *debug:* be SUPER chatty about a lot of things
+
 
 ## Development
 
