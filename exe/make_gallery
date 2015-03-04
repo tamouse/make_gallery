@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "make_gallery"
+
+MakeGallery.start
